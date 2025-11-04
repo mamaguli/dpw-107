@@ -5,21 +5,21 @@ const productosJSON = [
     nombre: "Cafe MOla",
     precio: 70.00,
     descripcion: "Exquisito cafe con chocolate y crema",
-    imagen: "imagenes/te-verde.jpg"
+    imagen: "te-verde.jpg"
   },
   {
     id: 2,
     nombre: "Te Verde",
     precio: 50.00,
     descripcion: "Hoja de te verde",
-    imagen: "/imagenes/te-verde.jpg"
+    imagen: "te-verde.jpg"
   },
   {
     id: 3,
     nombre: "Smoothie de Frutas",
     precio: 40.00,
     descripcion: "Mezcla de Frutas",
-    imagen: "imagenes/te-verde.jpg"
+    imagen: "te-verde.jpg"
   }
   
 ]
@@ -46,4 +46,5 @@ function mostrarProductos(){
 
 }
 // llamar a la funcion
+
 mostrarProductos();
