@@ -5,7 +5,7 @@ const productosJSON = [
     nombre: "Cafe MOla",
     precio: 70.00,
     descripcion: "Exquisito cafe con chocolate y crema",
-    imagen: "te-verde.jpg"
+    imagen: "imagenes/te-verde.jpg"
   },
   {
     id: 2,
@@ -48,3 +48,4 @@ function mostrarProductos(){
 // llamar a la funcion
 
 mostrarProductos();
+
